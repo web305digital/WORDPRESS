@@ -1,0 +1,16 @@
+
+
+
+
+/* CON ADDON ELEMENTS KIT PRO */
+
+.ekit-sticky--effects
+.elementor-container.elementor-column-gap-default {
+transform: scale(0.7);
+
+	  transition: 0.5s all;
+}
+
+.headersticky {
+	  transition: 0.5s all;
+}

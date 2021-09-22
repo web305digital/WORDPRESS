@@ -1,0 +1,24 @@
+
+
+<style type="text/css">
+
+/* Clases de botones activadores del popup */
+    .redes, .pautas, .identidad, .paginas, .fotografia, .consultoria {
+        cursor: pointer;
+    }    
+    
+</style>
+    
+
+
+<!-- Con este JQ cerramos el popup al dar clic al boton con la clase .buttoncerrar-->
+
+<script type="text/javascript">
+    jQuery( document ).ready( function( $ ) {
+        $( document ).on( 'click', '.buttoncerrar', function( event ) {
+            elementorProFrontend.modules.popup.closePopup( {}, event );
+        } );
+    } );
+</script>
+
+
